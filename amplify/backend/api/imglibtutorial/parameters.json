@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "imglibtutorial",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authimglibtutorial45b4c469",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
